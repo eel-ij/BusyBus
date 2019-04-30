@@ -1,0 +1,137 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-size: 10px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.material-icons.grey150 {
+  color: #757575;
+}
+
+.app-bar {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.locations {
+  width: 100%;
+  text-align: center;
+  padding: 3% 0%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+input {
+  width: 80%;
+  border: 0.5px solid #E5E5E5;
+  padding: 5px;
+  margin-top: 3px;
+}
+
+.nav-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.navbutton {
+  border-top: .1em solid #E5E5E5;
+  border-right: .05em solid #E5E5E5;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2.75em;
+}
+
+i {
+  vertical-align: middle;
+}
+
+.map-container {
+  width: 100%;
+  height: 250px;
+  background: url("../images/map-image.png") no-repeat center;
+  background-size: cover;
+}
+
+.busline {
+  border-bottom: .1em solid #E5E5E5;
+  padding: 5%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.busnumber {
+  display: inline-block;
+  width: 55px;
+  top: 50%;
+  background: #E5E5E5;
+  border-radius: 5px;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 2em;
+  text-align: center;
+}
+
+.businfo {
+  top: 50%;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.destination {
+  display: block;
+  width: 100%;
+  font-size: 1.8em;
+  font-weight: 500;
+  margin-bottom: 3%;
+}
+
+.navbound {
+  display: block;
+  width: 100px;
+  font-size: 1.2em;
+  border-radius: 3px;
+  line-height: 1.4em;
+  padding-left: .8em;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.navbound.east {
+  background-color: #2AA53E;
+}
+
+.navbound.north {
+  background-color: #FFD600;
+}
+
+.navbound.south {
+  background-color: #4285F4;
+}
+
+.navbound.out {
+  background-color: #FF0000;
+}
+
+.navbound.reroute {
+  background-color: #E5E5E5;
+}
+
+.frequency {
+  display: inline-block;
+  top: 50%;
+  font-size: 2em;
+  font-weight: bolder;
+  float:right;
+  margin-left: auto;
+}
+
+h5 {
+  font-size: 0.8em;
+}
