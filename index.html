@@ -36,106 +36,121 @@
         </nav>
       </header>
       <section class="map-container"></section>
-      <section class="bus-list">
-        <ul>
-          <li class="busline">
-            <div class="busnumber">
-              <h1>124</h1>
-            </div>
-            <div class="businfo">
-              <h2 class="destination">Navy Pier</h2>
-              <h3 class="navbound east">Eastbound</h3>
-            </div>
-            <h4 class="frequency">Every<br>10 mins</h4>
-          </li>
-          <li class="busline">
-            <div class="busnumber">
-              <h1>124</h1>
-            </div>
-            <div class="businfo">
-              <h2 class="destination">Navy Pier</h2>
-              <h3 class="navbound south">Southbound</h3>
-            </div>
-            <h4 class="frequency">Every<br>10 mins</h4>
-          </li>
-          <li class="busline">
-            <div class="busnumber">
-              <h1>J14</h1>
-            </div>
-            <div class="businfo">
-              <h2 class="destination">103rd/Stony Island</h2>
-              <h3 class="navbound south">Southbound</h3>
-            </div>
-            <h4 class="frequency">Every<br>15 mins</h4>
-          </li>
-          <li class="busline">
-            <div class="busnumber">
-              <h1>151</h1>
-            </div>
-            <div class="businfo">
-              <h2 class="destination">Devon/Clark</h2>
-              <h3 class="navbound north">Northbound</h3>
-            </div>
-            <h4 class="frequency">Every<br>16 mins</h4>
-          </li>
-          <li class="busline">
-            <div class="busnumber">
-              <h1>60</h1>
-            </div>
-            <div class="businfo">
-              <h2 class="destination">Randolph/Harbor Dr</h2>
-              <h3 class="navbound east">Eastbound</h3>
-            </div>
-            <h4 class="frequency">Every<br>20 mins</h4>
-          </li>
-          <li class="busline">
-            <div class="busnumber">
-              <h1>6X</h1>
-            </div>
-            <div class="businfo">
-              <h2 class="destination">Jackson Park Express</h2>
-              <h3 class="navbound reroute">Reroute</h3>
-            </div>
-            <h4 class="frequency">N/A</h4>
-          </li>
-          <li class="busline">
-            <div class="busnumber">
-              <h1>4</h1>
-            </div>
-            <div class="businfo">
-              <h2 class="destination">Cottage Grove</h2>
-              <h3 class="navbound out">Out of Service</h3>
-            </div>
-            <div class="frequency">
-              <h5>Resumes<br>12:10am</h5>
-            </div>
-          </li>
-          <li class="busline">
-            <div class="busnumber">
-              <h1>20</h1>
-            </div>
-            <div class="businfo">
-              <h2 class="destination">Madison</h2>
-              <h3 class="navbound out">Out of Service</h3>
-            </div>
-            <div class="frequency">
-              <h5>Resumes<br>12:10am</h5>
-            </div>
-          </li>
-          <li class="busline">
-            <div class="busnumber">
-              <h1>157</h1>
-            </div>
-            <div class="businfo">
-              <h2 class="destination">Streetville/Taylor</h2>
-              <h3 class="navbound out">Out of Service</h3>
-            </div>
-            <div class="frequency">
-              <h5>Resumes<br>6:00am</h5>
-            </div>
-          </li>
-        </ul>
-      </section>
+      <ul class="bus-list">
+        <li class="busline">
+          <div class="busnumber">
+            <h1>124</h1>
+          </div>
+          <ul class="businfo">
+            <li class="destination">Navy Pier</li>
+            <li class="navbound east">Eastbound</li>
+          </ul>
+          <ul class="timetable">
+            <li class="frequency">18 mins</li>
+            <li class="arrival">every 10 min</li>
+          </ul>
+        </li>
+        <li class="busline">
+          <div class="busnumber">
+            <h1>124</h1>
+          </div>
+          <ul class="businfo">
+            <li class="destination">Navy Pier</li>
+            <li class="navbound south">Southbound</li>
+          </ul>
+          <ul class="timetable">
+            <li class="frequency">20 mins</li>
+            <li class="arrival">every 10 min</li>
+          </ul>
+        </li>
+        <li class="busline">
+          <div class="busnumber">
+            <h1>J14</h1>
+          </div>
+          <ul class="businfo">
+            <li class="destination">103rd/Stony Island</li>
+            <li class="navbound south">Southbound</li>
+          </ul>
+          <ul class="timetable">
+            <li class="frequency">25 mins</li>
+            <li class="arrival">every 15 min</li>
+          </ul>
+        </li>
+        <li class="busline">
+          <div class="busnumber">
+            <h1>151</h1>
+          </div>
+          <div class="businfo">
+            <h2 class="destination">Devon/Clark</h2>
+            <h3 class="navbound north">Northbound</h3>
+          </div>
+          <ul class="timetable">
+            <li class="frequency">27 mins</li>
+            <li class="arrival">every 16 min</li>
+          </ul>
+        </li>
+        <li class="busline">
+          <div class="busnumber">
+            <h1>60</h1>
+          </div>
+          <ul class="businfo">
+            <li class="destination">Randolph/Harbor Dr</li>
+            <li class="navbound east">Eastbound</li>
+          </ul>
+          <ul class="timetable">
+            <li class="frequency">30 mins</li>
+            <li class="arrival">every 20 min</li>
+          </ul>
+        </li>
+        <li class="busline">
+          <div class="busnumber">
+            <h1>6X</h1>
+          </div>
+          <ul class="businfo">
+            <li class="destination">Jackson Park Express</li>
+            <li class="navbound reroute">Reroute</li>
+          </ul>
+          <ul class="timetable">
+            <li class="frequency">N/A</li>
+          </ul>
+        </li>
+        <li class="busline">
+          <div class="busnumber">
+            <h1>4</h1>
+          </div>
+          <ul class="businfo">
+            <li class="destination">Cottage Grove</li>
+            <li class="navbound out">Out of Service</li>
+          </ul>
+          <ul class="timetable">
+            <li class="frequency">Resumes<br>12:10am</li>
+          </ul>
+        </li>
+        <li class="busline">
+          <div class="busnumber">
+            <h1>20</h1>
+          </div>
+          <ul class="businfo">
+            <li class="destination">Madison</li>
+            <li class="navbound out">Out of Service</li>
+          </ul>
+          <ul class="timetable">
+            <li class="frequency">Resumes<br>12:10am</li>
+          </ul>
+        </li>
+        <li class="busline">
+          <div class="busnumber">
+            <h1>157</h1>
+          </div>
+          <ul class="businfo">
+            <li class="destination">Streetville/Taylor</li>
+            <li class="navbound out">Out of Service</li>
+          </ul>
+          <ul class="timetable">
+            <li class="frequency">Resumes<br>6:00am</li>
+          </ul>
+        </li>
+      </ul>
     </section>
   </body>
 </html>

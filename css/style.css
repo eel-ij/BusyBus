@@ -70,11 +70,15 @@ i {
   align-items: center;
 }
 
+.busline:hover {
+  background-color: #E5E5E5;
+}
+
 .busnumber {
   display: inline-block;
   width: 55px;
   top: 50%;
-  background: #E5E5E5;
+  background: #CCCCCC;
   border-radius: 5px;
   font-size: 2em;
   font-weight: 600;
@@ -128,11 +132,19 @@ i {
 }
 
 .frequency {
-  display: inline-block;
-  top: 50%;
   font-size: 1.8em;
   font-weight: 600;
-  float:right;
+}
+
+.arrival {
+  font-size: 1.2em;
+  margin-top: 5%;
+}
+
+.timetable {
+  display: inline-block;
+  top: 50%;
+  float: right;
   margin-left: auto;
 }
 
